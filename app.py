@@ -17,7 +17,6 @@ def homework():
 @app.route('/order', methods=['POST'])
 def save_order():
     # 여길 채워나가세요!
-    print("커밋테스트")
     # 클라이언트가 준 name, count, contact 가져오기
     name_receive = request.form['name_give']
     count_receive = request.form['count_give']

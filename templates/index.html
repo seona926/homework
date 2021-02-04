@@ -49,8 +49,6 @@
                 alert('주문이 완료되었습니다.')
             }
 
-            console.log(_name, count, contact);
-
             $.ajax({
                 type: "POST",
                 url: "/order",
@@ -62,7 +60,6 @@
                 }
             })
         }
-
 
         function showOrders() {
             $.ajax({
